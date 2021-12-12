@@ -1,0 +1,21 @@
+@font-face{
+    font-family:'cat' ;  /* 字体名自定义即可 */
+    src:url('/fonts/cat.ttf'); /* 字体文件路径 */
+    font-display : swap;
+  }
+
+@font-face{
+    font-family:'kan' ;  /* 字体名自定义即可 */
+    src:url('/fonts/kan.ttf'); /* 字体文件路径 */
+    font-display : swap;
+  }
+h1#site-title {
+    font-family: 'kan', sans-serif; 
+  }
+svg.icon {
+   width: 1em; height: 1em;
+   /* width和height定义图标的默认宽度和高度*/
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
